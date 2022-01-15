@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7986CB"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+   <TextView
+       android:id="@+id/first"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginLeft="20dp"
+       android:layout_marginRight="20dp"
+       android:layout_marginTop="10dp"
+       android:padding="10dp"
+       android:background="@drawable/text_shape"
+       android:text="First kalma Tayyib"
+       android:textColor="#fff"
+       android:textSize="30sp"
+       android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/second"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:padding="10dp"
+        android:background="@drawable/text_shape"
+        android:text="Second kalma Shahadat"
+        android:textColor="#fff"
+        android:textSize="30sp"
+        android:gravity="center"/>
+    <TextView
+        android:id="@+id/third"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:padding="10dp"
+        android:background="@drawable/text_shape"
+        android:text="Third kalma Tamjeed"
+        android:textColor="#fff"
+        android:textSize="30sp"
+        android:gravity="center"/>
+    <TextView
+        android:id="@+id/fourth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:padding="10dp"
+        android:background="@drawable/text_shape"
+        android:text="Fourth kalma Tauheed"
+        android:textColor="#fff"
+        android:textSize="30sp"
+        android:gravity="center"/>
+    <TextView
+        android:id="@+id/fifth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:padding="10dp"
+        android:background="@drawable/text_shape"
+        android:text="Fifth kalma Astaghfar"
+        android:textColor="#fff"
+        android:textSize="30sp"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/sixth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:padding="10dp"
+        android:background="@drawable/text_shape"
+        android:text="Sixth  kalma Radd-e-Kufr"
+        android:textColor="#fff"
+        android:textSize="30sp"
+        android:gravity="center"/>
+
+</LinearLayout>

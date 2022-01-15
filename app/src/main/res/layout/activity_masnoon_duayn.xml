@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MasnoonDuayn">
+
+
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     android:background="#7986CB"
+     android:orientation="vertical">
+
+     <TextView
+         android:id="@+id/tone"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_margin="20dp"
+         android:padding="10dp"
+         android:background="@drawable/text_shape"
+         android:text="Sleeping                          سوتے وقت  "
+         android:textColor="#fff"
+         android:textSize="30sp"
+         android:gravity="center"/>
+     <TextView
+         android:id="@+id/ttwo"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_margin="20dp"
+         android:padding="10dp"
+         android:background="@drawable/text_shape"
+         android:text="Waking UP From Sleep                       نیند سے بیدار ہونے کی دعا "
+         android:textColor="#fff"
+         android:textSize="30sp"
+         android:gravity="center"/>
+    <TextView
+        android:id="@+id/first"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:background="@drawable/text_shape"
+        android:text="Before Meals               کھانے سے پہلے "
+        android:textColor="#fff"
+        android:textSize="30sp"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/second"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:padding="10dp"
+        android:background="@drawable/text_shape"
+        android:text="After Eating                    کھانے کے بعد "
+        android:textColor="#fff"
+        android:textSize="30sp"
+        android:gravity="center"/>
+    <TextView
+        android:id="@+id/third"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:padding="10dp"
+        android:background="@drawable/text_shape"
+        android:text="Entering The Home         گھر میں داخل ہوتے وقت "
+        android:textColor="#fff"
+        android:textSize="30sp"
+        android:gravity="center"/>
+    <TextView
+        android:id="@+id/fourth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:padding="10dp"
+        android:background="@drawable/text_shape"
+        android:text="Leaving The House        گھر سے نکلتے وقت "
+        android:textColor="#fff"
+        android:textSize="30sp"
+        android:gravity="center"/>
+    <TextView
+        android:id="@+id/fifth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:padding="10dp"
+        android:background="@drawable/text_shape"
+        android:text="Entering The Mosque   مسجد میں داخل ہونے کی دعا"
+        android:textColor="#fff"
+        android:textSize="30sp"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/sixth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:padding="10dp"
+        android:background="@drawable/text_shape"
+        android:text="Leaving The Mosque   مسجد سے نکلنے کی دعا"
+        android:textColor="#fff"
+        android:textSize="30sp"
+        android:gravity="center"/>
+
+      <TextView
+          android:id="@+id/seventh"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_margin="20dp"
+          android:padding="10dp"
+          android:background="@drawable/text_shape"
+          android:text="Traveling / Journey       سفر اور سواری  "
+          android:textColor="#fff"
+          android:textSize="30sp"
+          android:gravity="center"/>
+
+      <TextView
+          android:id="@+id/eight"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_margin="20dp"
+          android:padding="10dp"
+          android:background="@drawable/text_shape"
+          android:text="Entering The Market      بازار میں داخل ہوتے وقت "
+          android:textColor="#fff"
+          android:textSize="30sp"
+          android:gravity="center"/>
+
+      <TextView
+          android:id="@+id/nine"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_margin="20dp"
+          android:padding="10dp"
+          android:background="@drawable/text_shape"
+          android:text="Relief From All Hardships   مصیبت کے وقت ورد کرنا"
+          android:textColor="#fff"
+          android:textSize="30sp"
+          android:gravity="center"/>
+
+      <TextView
+          android:id="@+id/ten"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_margin="20dp"
+          android:padding="10dp"
+          android:background="@drawable/text_shape"
+          android:text="Before Wudhu (Ablution)    وضو سے پہلے "
+          android:textColor="#fff"
+          android:textSize="30sp"
+          android:gravity="center"/>
+
+      <TextView
+          android:id="@+id/elevan"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_margin="20dp"
+          android:padding="10dp"
+          android:background="@drawable/text_shape"
+          android:text="Entering The Cemetery  قبرستان میں داخل ہوتے وقت "
+          android:textColor="#fff"
+          android:textSize="30sp"
+          android:gravity="center"/>
+
+      <TextView
+          android:id="@+id/twovlth"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_margin="20dp"
+          android:padding="10dp"
+          android:background="@drawable/text_shape"
+          android:text=" Dead Body Into A Grave    میت کو قبر میں رکھتے وقت "
+          android:textColor="#fff"
+          android:textSize="30sp"
+          android:gravity="center"/>
+
+      <TextView
+          android:id="@+id/thirtenth"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_margin="20dp"
+          android:padding="10dp"
+          android:background="@drawable/text_shape"
+          android:text="Shab E Qadr                       شبِ قدر "
+          android:textColor="#fff"
+          android:textSize="30sp"
+          android:gravity="center"/>
+
+
+     <TextView
+         android:id="@+id/fourteen"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_margin="20dp"
+         android:padding="10dp"
+         android:background="@drawable/text_shape"
+         android:text="Sehri                                    روزہ رکھنے کی نیت  "
+         android:textColor="#fff"
+         android:textSize="30sp"
+         android:gravity="center"/>
+     <TextView
+         android:id="@+id/fifteen"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_margin="20dp"
+         android:padding="10dp"
+         android:background="@drawable/text_shape"
+         android:text="Iftar                                       روزہ افطار کرنے کی دعا    "
+         android:textColor="#fff"
+         android:textSize="30sp"
+         android:gravity="center"/>
+     <TextView
+         android:id="@+id/sixteen"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_margin="20dp"
+         android:padding="10dp"
+         android:background="@drawable/text_shape"
+         android:text="Drinking Zam Zam                   آب زم زم پیتے وقت  "
+         android:textColor="#fff"
+         android:textSize="30sp"
+         android:gravity="center"/>
+     <TextView
+         android:id="@+id/seventeen"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_margin="20dp"
+         android:padding="10dp"
+         android:background="@drawable/text_shape"
+         android:text="Fever Or Pain                        درد اور بخار  "
+         android:textColor="#fff"
+         android:textSize="30sp"
+         android:gravity="center"/>
+     <TextView
+         android:id="@+id/eighteen"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_margin="20dp"
+         android:padding="10dp"
+         android:background="@drawable/text_shape"
+         android:text="For Rain                           بارش طلب کرنے کی دعا "
+         android:textColor="#fff"
+         android:textSize="30sp"
+         android:gravity="center"/>
+     <TextView
+         android:id="@+id/ninteen"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_margin="20dp"
+         android:padding="10dp"
+         android:background="@drawable/text_shape"
+         android:text="Time Of Rain                       بارش کے وقت کی دعا "
+         android:textColor="#fff"
+         android:textSize="30sp"
+         android:gravity="center"/>
+     <TextView
+         android:id="@+id/twenty"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_margin="20dp"
+         android:padding="10dp"
+         android:background="@drawable/text_shape"
+         android:text="Something Is Lost                 کوئی چیز گم ہ جانے کے بعد "
+         android:textColor="#fff"
+         android:textSize="30sp"
+         android:gravity="center"/>
+
+
+
+ </LinearLayout>
+</ScrollView>
